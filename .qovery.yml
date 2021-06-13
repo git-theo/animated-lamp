@@ -1,0 +1,11 @@
+---
+application:
+  name: "animated-lamp"
+  project: "pasting"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-animated-lamp"
+  routes:
+  - application_name: "animated-lamp"
+    paths:
+    - "/*"
